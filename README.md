@@ -3,6 +3,7 @@
 
 This package provides a **UGV pathfinding node** for ROS 2 written in Python.  
 The node listens to a local occupancy grid map and a goal pose, computes a path in the map frame, and publishes a list of waypoints for the rover control node to follow.
+Right now, it only the only path it has is for the straight line test 1, but once we get the algos for the other challenges, we can ammend the code to include those
 ---
 ## 1. Node Overview
 
